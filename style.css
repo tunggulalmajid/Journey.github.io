@@ -5,15 +5,16 @@ body{
     background-image:url(images/pngwing.com.png);
     background-repeat: repeat-x;
     background-position:bottom;
-    padding-bottom: 1100px;
+    padding-bottom: 250px;
     /* padding-right: 500px; */
     
 
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 30px;
+    text-align: center;
 }
 main figure  {
     display: flex;
@@ -38,6 +39,6 @@ p{
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
-    margin-left: 30px;
-    margin-left: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
