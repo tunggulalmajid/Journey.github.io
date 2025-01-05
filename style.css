@@ -4,11 +4,9 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image:url(images/pngwing.com.png);
     background-repeat: repeat-x;
-    background-position:bottom;
+    background-position:bottom, top;
     padding-bottom: 250px;
     /* padding-right: 500px; */
-    
-
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;

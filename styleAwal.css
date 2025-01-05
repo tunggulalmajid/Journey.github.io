@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(22, 49, 27);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url(images/pngwing.com.png),url(images/rumputAtas.png);
+    background-repeat: repeat-x,repeat-x;
+    background-position:bottom,top;
+    padding-bottom: 400px;
+    /* padding-right: 500px; */
+}
+h1{
+    color: black;
+    font-weight: bolder;
+    margin-top: 500px;
+    margin-left: 10em;
+}
