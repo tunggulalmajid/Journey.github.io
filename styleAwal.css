@@ -5,12 +5,17 @@ body{
     background-image:url(images/pngwing.com.png),url(images/rumputAtas.png);
     background-repeat: repeat-x,repeat-x;
     background-position:bottom,top;
-    padding-bottom: 400px;
+    padding-bottom: 450px;
     /* padding-right: 500px; */
 }
 h1{
     color: black;
     font-weight: bolder;
-    margin-top: 500px;
-    margin-left: 10em;
+    margin-top: 450px;
+    text-align: center;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
