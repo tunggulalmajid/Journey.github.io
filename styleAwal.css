@@ -24,9 +24,13 @@ h1{
     margin: 10px;
     padding: 10px 15px;
     background-color: rgba(41, 41, 41, 0.394);
+    border:groove;
+    border-radius: 10%;
+    
 }
 .btn-group button a{
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
+    
 }
