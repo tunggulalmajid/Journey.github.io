@@ -2,35 +2,34 @@ body{
     background-color: rgb(22, 49, 27);
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image:url(images/pngwing.com.png),url(images/rumputAtas.png);
-    background-repeat: repeat-x,repeat-x;
-    background-position:bottom,top;
-    padding-bottom: 450px;
-    /* padding-right: 500px; */
 }
-h1{
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    margin-top: 450px;
-    text-align: center;
-}
-.btn-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+.hero-box{
+    margin-top: 150px;
 }
 
-.btn-group button {
-    margin: 10px;
-    padding: 10px 15px;
-    background-color: rgba(41, 41, 41, 0.394);
-    border:groove;
-    border-radius: 10%;
-    
+.btn-light:hover{
+    background-color: rgba(22, 49, 27,0);
+    color: white;
+    transition: all 0.2s;
 }
-.btn-group button a{
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    
+.hero-box img:hover{
+    opacity: 60%;
+    transition: all 0.2s;
+}
+
+footer{
+    padding-top:110px ;
+    font-family: none;
+}
+
+@media (max-width:1000px) {
+    .hero-box img{
+        width: 400px;
+    } 
+}
+@media (max-width:700px) {
+    .hero-box img{
+        margin-top: -50px;
+        width: 300px;
+    } 
 }

@@ -4,8 +4,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image:url(images/pngwing.com.png);
     background-repeat: repeat-x;
-    background-position:bottom, top;
-    padding-bottom: 250px;
+    background-position:bottom;
+    padding-bottom: 200px;
     /* padding-right: 500px; */
 }
 h1{
@@ -14,29 +14,55 @@ h1{
     margin-left: 30px;
     text-align: center;
 }
-main figure  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+/* Main Page start*/
+.foto-box img{
+    width: 400px;
 }
-main figure div {
-    width: 600px;
+.foto-box img:hover{
+    opacity: 60%;
+    transition: all 0.2s ease-in-out;
 }
-p{
-    display: flex;
-    text-align: justify;
-    font-size: large;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+
 .card {
     background-color: rgba(0, 0, 0, 0.4);
 }
-.lampiran{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
+
+@media (max-width: 900px) {
+    .foto-box img{
+        width: 300px;
+    }
 }
+@media (max-width: 400px) {
+    .foto-box img{
+        width: 250px;
+    }
+    p{
+        padding: 5px;
+    }
+}
+p{
+    text-align: justify;
+}
+.copyright p{
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+}
+/* Main Page end*/
+
+/* Second Page start */
+header {
+    margin-bottom: 30px;
+}
+.library-box img{
+    width: 100%;
+}
+.library-box .col:hover{
+    opacity: 60%;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Second Page end */
